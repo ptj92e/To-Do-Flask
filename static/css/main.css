@@ -1,5 +1,63 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.content {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+}
+table {
+    width: 100%;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+th {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    border: 1px solid grey;
+}
+td {
+    padding: 20px;
+    border: 1px solid grey;
+    font-size: 20px;
+}
+input {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.submit {
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+    text-decoration: none;
+}
+a {
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+.delete {
+    background-color: red;
+}
+.update {
+    background-color: green;
 }
